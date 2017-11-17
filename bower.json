@@ -1,11 +1,8 @@
 {
-  "name": "Modulo-7",
-  "authors": [
-    "Toshi Ossada <toshiossada@gmail.com>"
-  ],
+  "name": "modulo7",
   "description": "",
-  "main": "",
-  "license": "MIT",
+  "main": "index.js",
+  "license": "ISC",
   "homepage": "",
   "ignore": [
     "**/.*",
@@ -13,8 +10,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "bootstrap": "^3.3.7"
-  }
+  ]
 }

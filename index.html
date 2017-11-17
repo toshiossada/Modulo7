@@ -3,33 +3,40 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Layout</title>
-    <link rel="stylesheet" href="componentes/bootstrap/dist/css/bootstrap.min.css">
-    <script src="componentes/jquery/dist/jquery.min.js"></script>
-    <script src="componentes/bootstrap/dist/js/bootstrap.min.js"></script>    
-    <link rel="stylesheet" href="css/style.css">
-	
+	<title>Grids</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
 
+
+		.col,[class*="col-"] {
+			background-color: #f4f4f4;
+		}
+	</style>	
 </head>
 <body>
-		
 	<div class="container">
-		<div class="row">
-			<div class="col-3 text-center">Logo</div>
-			<div class="col text-center">Menu</div> 
-		</div> 
-		<div class="row d-flex justify-content-between">
-			<div class="col"><h1>Titulo</h1> text text text text text text text text text text</div>
-			<div class="col"><h1>Titulo</h1> text text text text text text text text text text</div>
-			<div class="col"><h1>Titulo</h1> text text text text text text text text text text</div>
+		<div class="row header">
+			<div class="col-2 logo">teste</div>
+			<div class="col-10 menu">testsetsetest</div>
 		</div>
-		<div class="row">
-			<div class="col d-flex justify-content-between">
-				<a>Chamada super foda</a><a href="#">saiba mais</a>
+		<div class="row titles">
+			<div class="col-4 item"><p>testsetsetest</p></div>
+			<div class="col-4 item"><p>testsetsetest</p></div>
+			<div class="col-4 item"><p>testsetsetest</p></div>
+		</div>
+		<div class="row chamadas">
+			<div class="col-12 row">
+				<div class="col-9 chamada"><p>Chamada super foda</p></div>
+				<div class="col-3 saiba-mais"><a href="#">saiba mais</a></div>
 			</div>
+			<div class="col-12 row">
+				<div class="col-9 chamada"><p>Chamada super foda</p></div>
+				<div class="col-3 saiba-mais"><a href="#">saiba mais</a></div>
+			</div>			
 		</div>
-		<div class="row">
-			<div class="col text-center">Rodapé</div>
+		<div class="row footer">
+			<div class="col-12">testsetsetest</div>
 		</div>
 	</div>
 </body>

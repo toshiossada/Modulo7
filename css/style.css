@@ -1,0 +1,46 @@
+.container{
+	margin:0 auto;
+	width: 1200px;
+	height: 950px;
+}
+
+.container .row{
+	margin:  20px 0;
+}
+
+.header > div{
+	height: 50px;
+}
+
+
+.titles{
+	height: 200px;
+}
+.titles > .item{
+	text-align: center;
+	align-self: center;	
+}
+
+.chamadas .row  {
+	margin: 20px 0;
+}
+
+.chamadas .row .chamada{
+	padding: 20px;
+}
+
+.chamadas .row .chamada p {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.chamadas .row .saiba-mais{
+	text-align: center;
+	align-self: center;		
+}
+
+.footer{
+	height: 100px;
+	text-align: center;
+	align-self: center;	
+}
